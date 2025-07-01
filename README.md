@@ -2,6 +2,6 @@
 
 💼 Cyber Security Analyst• Splunk SIEM • Cybersecurity Specialist
 💻 Digital Forensics • Incident Response • Network Security
-📖 Malware Development • Cloud Security • Powershell and rust
+📖 Malware Development • Cloud Security • Powershell and python
 🎮 CTFs • Tabletop excersises
 🔐 Protecting digital landscapes, one alert at a time
