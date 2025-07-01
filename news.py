@@ -53,13 +53,13 @@ def get_reddit_cyber_posts():
 
 # --------- SEND EMAIL ---------
 def send_email_digest(content):
-    EMAIL_ADDRESS = "iamtomyt@gmail.com"
-    EMAIL_PASSWORD = "tsdshksrbipilgns"  # Replace with your actual Gmail app password
+    EMAIL_ADDRESS = "email@gmail.com" # Replace with email
+    EMAIL_PASSWORD = "APP_PASSWORD"  # Replace with your actual Gmail app password
 
     msg = EmailMessage()
     msg["Subject"] = "🧠 Your Cybersecurity & Cloud Digest"
     msg["From"] = EMAIL_ADDRESS
-    msg["To"] = "iamtomyt@gmail.com"  # Change if you want to send to a different email
+    msg["To"] = "email@gmail.com"  # Change if you want to send to a different email
     msg.set_content(content)
 
     with smtplib.SMTP("smtp.gmail.com", 587) as smtp:
@@ -78,4 +78,4 @@ if __name__ == "__main__":
     full_digest = f"{news}\n\n{reddit}"
     send_email_digest(full_digest)
 
-    print("✅ Email sent to iamtomyt@gmail.com!")
+    print("✅ Email sent to email@gmail.com!")
