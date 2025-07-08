@@ -1,0 +1,27 @@
+name: Instagram News Emailer
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 * * * *"  # Every hour (change as needed)
+
+jobs:
+  send_news_script:
+    runs-on: ubuntu-latest
+    env:
+      EMAIL_ADDRESS: ${{ secrets.EMAIL_ADDRESS }}
+      EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install requests beautifulsoup4 selenium webdriver-manager
+
+      - name: Run Instagram Script Emailer
+        run: python insta_news_digest.py
