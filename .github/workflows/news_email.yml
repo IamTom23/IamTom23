@@ -3,7 +3,7 @@ name: Instagram News Emailer
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 * * * *"  # Every hour (change as needed)
+    - cron: "0 0 * * *"  # Every hour (change as needed)
 
 jobs:
   send_news_script:
