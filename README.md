@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=I+am+Tom+Rutt;A+Cyber+Security+Analyst+and+Enthusiast)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&multiline=true&width=435&lines=My+name+is+Tom+Rutt;A+Cybersecurity+Professional)](https://git.io/typing-svg)
 
 💼 Cyber Security Analyst --> Cloud Security Engineer/Red teamer • Cloud & Threat Detection/Intrusion Enthusiast
 ☁️ Splunk SIEM | Azure | AWS | Terraform (learning)
